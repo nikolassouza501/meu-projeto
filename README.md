@@ -28,3 +28,46 @@
   Modo pin(B1A, SAÍDA);
   Modo pin(B1B, SAÍDA);
   Modo pin(A1A, SAÌDA)
+  Modo pin(A1B, SAÌDA);
+  Mdo pin (buzzerPin, SAÌDA);
+
+  servo.escrever(90);
+  //Radar();
+  {
+
+  ^ vazio laço() {
+
+     Serial.imprimir(ultrassônico.Alcance(
+
+     se(ultrassônico.Alcance(CM) <= distância
+       Andar(5);
+         Inteirostatus =Radar();
+         atraso(500);
+         se(estado ==1){
+           Andar(2);
+           atraso(600);
+           Andar(4);
+           atraso(400);
+           Andar(5);
+         }
+          se(estado ==2) { 
+           Andar(2)
+           atraso(600);
+           Andar(3);
+           atraso(400);
+           Andar(5);
+          }
+           se(estado ==0) {
+             Andar(2);
+             atraso(500);
+             Andar(4);
+             atraso(300);
+             Andar(5);
+            }
+             atraso(1000);
+          }
+        outro{
+           Andar(1);
+        }
+      }
+       
